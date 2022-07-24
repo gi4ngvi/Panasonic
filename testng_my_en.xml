@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Malaysia">
+    <parameter name="country" value="my"></parameter>
+    <parameter name="siteCode" value="my_en"></parameter>
+    <test name="run" preserve-order="true">
+        <classes>
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_CheckoutUsingCouponCodeTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_PreCondition"/>-->
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_CheckoutWithStaffInstallmentTest"></class>-->
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_CheckoutWithCreateNewBillingAddressTest"></class>-->
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_ReorderTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_ShoppingCartTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_RegistrationTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_WishlistTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.ForgotPasswordTest"></class>-->
+            <class name="isobar.panasonic.functions.my_en.MY_EN_LoginLogoutTest"></class>
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_CRUD_AddressTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_CompareProductTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_SubmiteWarrantyTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_NewsletterSubscriptionTest"></class>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_EditAccountInformationTest"></class>-->
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_AddDefaultAddressInAdminTest"></class>-->
+<!--            <class name="isobar.panasonic.scenarios.my_en.MY_EN_ShippingMethodStorePickup"/>-->
+<!--            <class name="isobar.panasonic.functions.my_en.MY_EN_PostCondition"/>-->
+<!--            <class name="isobar.panasonic.functions.PostCondition"/>-->
+        </classes>
+    </test> <!-- Test -->
+</suite>

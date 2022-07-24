@@ -1,0 +1,476 @@
+{
+  "bo": {
+    "user1": {
+      "user": "hieu.nguyen",
+      "pass": "Admin123456%"
+    },
+    "user2": {
+      "user": "sang.le",
+      "pass": "Abcd@123"
+    },
+    "user3": {
+      "user": "isobar_auto_02",
+      "pass": "Admin123456!"
+    }
+  },
+  "fo": {
+    "vn_vn": {
+      "user1": {
+        "name": "QC Automation",
+        "email": "auto.vnvn01@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "shippingAddress": {
+          "name": "hon trang",
+          "company": "isobar",
+          "city": "TP. Hồ Chí Minh",
+          "district": "Hóc Môn",
+          "ward": "Tân Xuân",
+          "country": "Việt Nam",
+          "street": "shipping",
+          "telephone": "01675628065",
+          "mobileNumber": "0167895401"
+        },
+        "billingAddress": {
+          "name": "hon trang",
+          "company": "isobar",
+          "city": "TP. Hồ Chí Minh",
+          "district": "Hóc Môn",
+          "ward": "Tân Xuân",
+          "country": "Việt Nam",
+          "street": "billing",
+          "telephone": "01675628065"
+        }
+      },
+      "user2": {
+        "name": "auto pana VN",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user3": {
+        "name": "Auto VN VN03",
+        "email": "auto.vnvn03@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user4": {
+        "name": "QC AutoVN 04",
+        "email": "automation.pana04@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "name": "QC panasonic",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      }
+    },
+    "vn_en": {
+      "user1": {
+        "name": "Auto VN EN",
+        "email": "auto.vnen01@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "shippingAddress": {
+          "name": "Auto VN EN",
+          "company": "isobar",
+          "city": "TP. Hồ Chí Minh",
+          "district": "1",
+          "ward": "Bến Nghé",
+          "country": "Vietnam",
+          "street": "shipping",
+          "telephone": "01675628065",
+          "mobileNumber": "0167895401"
+        },
+        "billingAddress": {
+          "name": "Auto VN EN",
+          "company": "isobar",
+          "city": "TP. Hồ Chí Minh",
+          "district": "Hóc Môn",
+          "ward": "Tân Xuân",
+          "country": "Vietnam",
+          "street": "billing",
+          "telephone": "01675628065"
+        }
+      },
+      "user2": {
+        "name": "Auto VN EN02",
+        "email": "auto.vnen02@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user3": {
+        "name": "Thien An",
+        "email": "sangle8392@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "name": "QC panasonic",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user5": {
+        "name": "VNEN",
+        "title": "Mr.",
+        "email": "auto.vnen.address@mailinator.com",
+        "pass": "Abc@123456789"
+      }
+    },
+    "id_en": {
+      "user1": {
+        "name": "Sang Le",
+        "email": "sang.le123@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "nickName": "ABC",
+        "title": "Mr.",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789",
+        "shippingAddress": {
+          "name": "Sang Le",
+          "company": "ARAVIND",
+          "state": "Bali",
+          "city": "Bangli",
+          "country": "Indonesia",
+          "street": "46 CH shipping",
+          "telephone": "09842263762",
+          "mobileNumber": "09842263762",
+          "zip": "618184"
+        },
+        "billingAddress": {
+          "name": "Sang Le",
+          "company": "ARAVIND",
+          "state": "Bali",
+          "city": "Bangli",
+          "country": "Indonesia",
+          "street": "46 CH billing",
+          "telephone": "09842263762",
+          "zip": "618184"
+        }
+      },
+      "user2": {
+        "name": "QC Auto",
+        "title": "Mr.",
+        "email": "iden02@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "nickName": "ABC",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789"
+      },
+      "user3": {
+        "name": "Thien An",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "name": "QC panasonic",
+        "title": "Mr.",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user5": {
+        "name": "IDEN",
+        "title": "Mr.",
+        "email": "auto.iden.address@mailinator.com",
+        "pass": "Abc@123456789"
+      }
+    },
+    "id_ba": {
+      "user1": {
+        "name": "Sang Le IDBA",
+        "email": "sang.le.idba01@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "nickName": "ABC",
+        "title": "Mr.",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789",
+        "shippingAddress": {
+          "name": "Sang Le",
+          "company": "ARAVIND",
+          "state": "Bali",
+          "city": "Bangli",
+          "country": "Indonesia",
+          "street": "46 CH shipping",
+          "telephone": "09842263762",
+          "mobileNumber": "09842263762",
+          "zip": "618184"
+        },
+        "billingAddress": {
+          "name": "Sang Le",
+          "company": "ARAVIND",
+          "state": "Bali",
+          "city": "Bangli",
+          "country": "Indonesia",
+          "street": "46 CH billing",
+          "telephone": "09842263762",
+          "zip": "618184"
+        }
+      },
+      "user2": {
+        "name": "QC Auto IDBA",
+        "title": "Mr.",
+        "email": "sang.le.idba02@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "nickName": "ABC",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789"
+      },
+      "user3": {
+        "name": "Thien An",
+        "title": "Mr.",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "name": "QC panasonic",
+        "title": "Mr.",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user5": {
+        "name": "IDBA",
+        "title": "Mr.",
+        "email": "auto.idba.address@mailinator.com",
+        "pass": "Abc@123456789"
+      }
+    },
+    "th_en": {
+      "user1": {
+        "firstName": "Sang",
+        "lastName": "Le",
+        "email": "sang.le123@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "title": "Mr.",
+        "nickName": "AAAA",
+        "shippingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "Bangkok",
+          "country": "Thailand",
+          "street": "46 CH shippng",
+          "telephone": "09842263762",
+          "mobileNumber": "0123456789",
+          "zip": "618184"
+        },
+        "billingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "Bangkok",
+          "country": "Thailand",
+          "street": "46 CH billing",
+          "telephone": "09842263762",
+          "zip": "618184"
+        }
+      },
+      "user2": {
+        "firstName": "QC",
+        "lastName": "Auto",
+        "email": "sang.le124@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "title": "Mr.",
+        "nickName": "AAAA"
+      },
+      "user3": {
+        "name": "Thien An",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "firstName": "QC",
+        "lastName": "panasonic",
+        "title": "Mr.",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user5": {
+        "firstName": "TH",
+        "lastName": "EN",
+        "title": "Mr.",
+        "email": "auto.then.address@mailinator.com",
+        "pass": "Abc@123456789"
+      }
+    },
+    "th_th": {
+      "user1": {
+        "firstName": "Sang TH",
+        "lastName": "Le TH",
+        "email": "sang.le.thth01@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "title": "Mr.",
+        "nickName": "AAAA",
+        "shippingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "กรุงเทพมหานคร",
+          "country": "ไทย",
+          "street": "46 CH shipping",
+          "telephone": "09842263762",
+          "mobileNumber": "09842263762",
+          "zip": "618184"
+        },
+        "billingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "กรุงเทพมหานคร",
+          "country": "ไทย",
+          "street": "46 CH billing",
+          "telephone": "09842263762",
+          "zip": "618184"
+        }
+      },
+      "user2": {
+        "firstName": "QC TH",
+        "lastName": "Auto TH",
+        "email": "sang.le.thth02@malidator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "title": "Mr.",
+        "nickName": "AAAA"
+      },
+      "user3": {
+        "name": "Thien An",
+        "title": "Mr.",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "firstName": "QC",
+        "lastName": "panasonic",
+        "title": "Mr.",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "user5": {
+        "firstName": "TH",
+        "lastName": "TH",
+        "title": "Mr.",
+        "email": "auto.thth.address@mailinator.com",
+        "pass": "Abc@123456789"
+      }
+    },
+    "my_en": {
+      "user1": {
+        "firstName": "Sang",
+        "lastName": "Le",
+        "email": "myen01@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789",
+        "nickName": "AAAA",
+        "maritalStatus": "Single",
+        "race": "Malay",
+        "group": "Panasonic Employee",
+        "shippingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "Kuala Lumpur",
+          "city": "Ipoh",
+          "country": "Malaysia",
+          "street": "46 shipping",
+          "telephone": "09842263762",
+          "zip": "50704",
+          "company": "ARAVIND",
+          "mobileNumber": "0982131540",
+          "addressName": "Shipping Address"
+        },
+        "billingAddress": {
+          "firstName": "Sang",
+          "lastName": "Le",
+          "state": "Kuala Lumpur",
+          "city": "Ipoh",
+          "country": "Malaysia",
+          "street": "47 billing",
+          "telephone": "09842263762",
+          "zip": "50702",
+          "company": "ARAVIND",
+          "mobileNumber": "0982131540",
+          "addressName": "Billing Address"
+        },
+        "storePickup": {
+          "storeName": "SEREMBAN",
+          "country": "Malaysia",
+          "state": "Kuala Lumpur",
+          "city": "KL",
+          "zipCode": "45120",
+          "street1": "Lian Seng Courts, Chamber D",
+          "street2": "street 2",
+          "street3": "street 3",
+          "phoneNumber": ""
+        }
+      },
+      "user2": {
+        "firstName": "QC MY",
+        "lastName": "Auto MY",
+        "email": "myen02@mailinator.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10",
+        "typeOfIdentityCard": "New IC",
+        "identityCardNumber": "123456789",
+        "nickName": "AAAA",
+        "maritalStatus": "Single",
+        "race": "Malay"
+      },
+      "user3": {
+        "name": "Thien An",
+        "email": "automation.pana01@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      },
+      "cus_fg_pass": {
+        "firstName": "QC",
+        "lastName": "panasonic",
+        "email": "automation.pana02@gmail.com",
+        "pass": "Abc@123456789",
+        "passConfirm": "Abc@123456789",
+        "dateOfBirth": "1990-10-10"
+      }
+    }
+  }
+}

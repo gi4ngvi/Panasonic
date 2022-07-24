@@ -1,0 +1,295 @@
+{
+  "vn_vn": {
+    "sp": {
+      "name": "selenium camera lumix",
+      "sku": "selenium-panasonic-1",
+      "id": "1059",
+      "category": "Shop Products>Máy Ảnh Lumix",
+      "price": 1000000,
+      "url": "/selenium-camera-lumix",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "selenium nồi cơm điện panasonic",
+      "sku": "selenium-panasonic-2",
+      "id": "1110",
+      "category": "",
+      "price": 240000,
+      "url": "/selenium-n-i-com-di-n-panasonic",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "selenium bundle",
+      "sku": "selenium bundle",
+      "id": "1111",
+      "category": "Shop Products>home appliances",
+      "price":2480000,
+      "url": "/selenium-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "selenium camera lumix",
+          "sku": "selenium-panasonic-1",
+          "qty": 2,
+          "price": 1000000
+        },
+        {
+          "name": "selenium nồi cơm điện panasonic",
+          "sku": "selenium-panasonic-2",
+          "qty": 2,
+          "price": 240000
+        }
+      ]
+    }
+  },
+  "vn_en": {
+    "sp": {
+      "name": "selenium camera lumix",
+      "sku": "selenium-panasonic-1",
+      "category": "Shop Products>Lumix Camera",
+      "price": 1000000,
+      "url": "/selenium-camera-lumix",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "selenium nồi cơm điện panasonic",
+      "sku": "selenium-panasonic-2",
+      "category": "",
+      "price": 240000,
+      "url": "/selenium-n-i-com-di-n-panasonic",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "selenium bundle",
+      "sku": "selenium bundle",
+      "category": "Shop Products>home appliances",
+      "price":2480000,
+      "url": "/selenium-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "selenium camera lumix",
+          "sku": "selenium-panasonic-1",
+          "qty": 2,
+          "price": 1000000
+        },
+        {
+          "name": "selenium nồi cơm điện panasonic",
+          "sku": "selenium-panasonic-2",
+          "qty": 2,
+          "price": 240000
+        }
+      ]
+    }
+  },
+  "id_en": {
+    "sp": {
+      "name": "Auto Pana1",
+      "sku": "10910025",
+      "category": "Shop Products>beauty",
+      "price": 100,
+      "url": "/auto-pana1",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "Auto Camera",
+      "sku": "10910027",
+      "category": "Shop Products>beauty",
+      "price": 100,
+      "url": "/auto-camera",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "auto bundle",
+      "sku": "10910028_bundle",
+      "category": "Shop Products>beauty",
+      "price":400,
+      "url": "/auto-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "Auto Pana1",
+          "sku": "10910025",
+          "qty": 2,
+          "price": 100
+        },
+        {
+          "name": "Auto Camera",
+          "sku": "10910027",
+          "qty": 2,
+          "price": 100
+        }
+      ]
+    }
+  },
+  "id_ba": {
+    "sp": {
+      "name": "Auto Pana1",
+      "sku": "10910025",
+      "category": "Shop Products>beauty",
+      "price": 100,
+      "url": "/auto-pana1",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "Auto Camera",
+      "sku": "10910027",
+      "category": "Shop Products>beauty",
+      "price": 100,
+      "url": "/auto-camera",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "auto bundle",
+      "sku": "10910028_bundle",
+      "category": "Shop Products>beauty",
+      "price":400,
+      "url": "/auto-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "Auto Pana1",
+          "sku": "10910025",
+          "qty": 2,
+          "price": 100
+        },
+        {
+          "name": "Auto Camera",
+          "sku": "10910027",
+          "qty": 2,
+          "price": 100
+        }
+      ]
+    }
+  },
+  "th_th": {
+    "sp": {
+      "name": "Auto Pana1",
+      "sku": "10910025",
+      "category": "Shop Products>camera & camcorders",
+      "price": 100,
+      "url": "/auto-pana1",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "Auto Camera",
+      "sku": "10910027",
+      "category": "Shop Products>camera & camcorders",
+      "price": 100,
+      "url": "/auto-camera",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "auto bundle",
+      "sku": "10910028_bundle",
+      "category": "Shop Products>camera & camcorders",
+      "price":400,
+      "url": "/auto-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "Auto Pana1",
+          "sku": "10910025",
+          "qty": 2,
+          "price": 100
+        },
+        {
+          "name": "Auto Camera",
+          "sku": "10910027",
+          "qty": 2,
+          "price": 100
+        }
+      ]
+    }
+  },
+  "th_en":{
+    "sp": {
+      "name": "Auto Pana1",
+      "sku": "10910025",
+      "category": "Shop Products>rewards",
+      "price": 100 ,
+      "url": "/auto-pana1",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "Auto Camera",
+      "sku": "10910027",
+      "category": "Shop Products>rewards",
+      "price": 100 ,
+      "url": "/auto-camera",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "auto bundle",
+      "sku": "10910028_bundle",
+      "category": "Shop Products>rewards",
+      "price":400,
+      "url": "/auto-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "Auto Pana1",
+          "sku": "10910025",
+          "qty": 2,
+          "price": 100
+        },
+        {
+          "name": "Auto Camera",
+          "sku": "10910027",
+          "qty": 2,
+          "price": 100
+        }
+      ]
+    }
+  },
+  "my_en":{
+    "sp": {
+      "name": "Auto Pana1",
+      "sku": "10910025",
+      "category": "Online Stores>home appliances",
+      "price": 100 ,
+      "url": "/auto-pana1",
+      "qty": 1
+    },
+    "sp1": {
+      "name": "Auto Camera",
+      "sku": "10910027",
+      "category": "Online Stores>home appliances",
+      "price": 100 ,
+      "url": "/auto-camera",
+      "qty": 1
+    },
+    "bundle": {
+      "name": "auto bundle",
+      "sku": "10910028_bundle",
+      "category": "Online Stores>BEAUTY",
+      "price":400,
+      "url": "/auto-bundle",
+      "qty": 1,
+      "bundle_items": [
+        {
+          "name": "Auto Pana1",
+          "sku": "10910025",
+          "qty": 2,
+          "price": 100
+        },
+        {
+          "name": "Auto Camera",
+          "sku": "10910027",
+          "qty": 2,
+          "price": 100
+        }
+      ]
+    },
+    "cp": {
+      "name": "Auto configurable product",
+      "sku": "10910030_configurable",
+      "category": "Online Stores>BEAUTY",
+      "url": "/10910030-configurable",
+      "color": "1",
+      "price": 200,
+      "qty": 1,
+      "sub_sku": "10910030_configurable_1"
+    }
+  }
+}

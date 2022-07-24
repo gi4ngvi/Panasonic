@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+    <test name="run" preserve-order="true">
+        <classes>
+            <class name="isobar.panasonic.scenarios.ui.UI_Desktop_Precondition"/>
+            <class name="isobar.panasonic.scenarios.ui.UI_DesktopTest"/>
+            <class name="isobar.panasonic.scenarios.ui.UI_Desktop_Cleanup"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

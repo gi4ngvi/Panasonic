@@ -1,0 +1,11 @@
+{
+  "my": {
+    "coupon1": {
+      "name": "Auto coupon",
+      "code": "ABC12345",
+      "conditions": "Subtotal  equals or greater than  1000",
+      "rule": "Fixed amount discount for whole cart",
+      "discount_amount": 50
+    }
+  }
+}

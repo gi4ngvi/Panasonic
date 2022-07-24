@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="112.574" tests="16" errors="0" skipped="10" failures="4">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/test-classes:/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/classes:/Users/giangvi/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar:/Users/giangvi/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/giangvi/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar:/Users/giangvi/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar:/Users/giangvi/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/giangvi/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/giangvi/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/giangvi/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/giangvi/.m2/repository/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/giangvi/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Users/giangvi/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.5/selenium-java-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.5/selenium-api-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.5/selenium-chrome-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.5/selenium-edge-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.5/selenium-firefox-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.5/selenium-ie-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.5/selenium-opera-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.5/selenium-remote-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.5/selenium-safari-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar:/Users/giangvi/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/giangvi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/giangvi/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/giangvi/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/giangvi/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/giangvi/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/giangvi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/giangvi/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/giangvi/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/giangvi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/giangvi/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/giangvi/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/giangvi/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/giangvi/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/giangvi/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/giangvi/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/giangvi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/giangvi/.m2/repository/org/json/json/20180130/json-20180130.jar:/Users/giangvi/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3.jar:/Users/giangvi/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/Users/giangvi/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/giangvi/.m2/repository/com/github/stephenc/monte/monte-screen-recorder/0.7.7.0/monte-screen-recorder-0.7.7.0.jar:/Users/giangvi/.m2/repository/com/github/javafaker/javafaker/0.2/javafaker-0.2.jar:/Users/giangvi/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/giangvi/.m2/repository/org/jyaml/jyaml/1.3/jyaml-1.3.jar:/Users/giangvi/.m2/repository/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar:/Users/giangvi/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client/1.26.0/google-oauth-client-1.26.0.jar:/Users/giangvi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/giangvi/.m2/repository/com/google/apis/google-api-services-gmail/v1-rev96-1.25.0/google-api-services-gmail-v1-rev96-1.25.0.jar:/Users/giangvi/.m2/repository/com/google/api-client/google-api-client/1.25.0/google-api-client-1.25.0.jar:/Users/giangvi/.m2/repository/com/google/http-client/google-http-client-jackson2/1.25.0/google-http-client-jackson2-1.25.0.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/giangvi/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/giangvi/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/giangvi/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/giangvi/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/giangvi/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/giangvi/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-testng/2.9.0/allure-testng-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.9.0/allure-descriptions-javadoc-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-java-commons/2.9.0/allure-java-commons-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-model/2.9.0/allure-model-2.9.0.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/giangvi/.m2/repository/org/apache/tika/tika-core/1.19.1/tika-core-1.19.1.jar:/Users/giangvi/.m2/repository/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar:/Users/giangvi/.m2/repository/org/jooq/joor-java-8/0.9.9/joor-java-8-0.9.9.jar:/Users/giangvi/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/giangvi/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/surefire/surefirebooter15675758940348630159.jar /Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/surefire 2020-04-15T09-53-28_619-jvmRun1 surefire12399964104593158975tmp surefire_0237317307346268204tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/test-classes:/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/classes:/Users/giangvi/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar:/Users/giangvi/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/giangvi/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar:/Users/giangvi/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar:/Users/giangvi/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/giangvi/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/giangvi/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/giangvi/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/giangvi/.m2/repository/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/giangvi/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Users/giangvi/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.5/selenium-java-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.5/selenium-api-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.5/selenium-chrome-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.5/selenium-edge-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.5/selenium-firefox-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.5/selenium-ie-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.5/selenium-opera-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.5/selenium-remote-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.5/selenium-safari-driver-3.141.5.jar:/Users/giangvi/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar:/Users/giangvi/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/giangvi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/giangvi/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/giangvi/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/giangvi/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/giangvi/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/giangvi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/giangvi/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/giangvi/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/giangvi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/giangvi/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/giangvi/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/giangvi/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/giangvi/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/giangvi/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/giangvi/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/giangvi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/giangvi/.m2/repository/org/json/json/20180130/json-20180130.jar:/Users/giangvi/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3.jar:/Users/giangvi/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/Users/giangvi/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/giangvi/.m2/repository/com/github/stephenc/monte/monte-screen-recorder/0.7.7.0/monte-screen-recorder-0.7.7.0.jar:/Users/giangvi/.m2/repository/com/github/javafaker/javafaker/0.2/javafaker-0.2.jar:/Users/giangvi/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/giangvi/.m2/repository/org/jyaml/jyaml/1.3/jyaml-1.3.jar:/Users/giangvi/.m2/repository/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar:/Users/giangvi/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client/1.26.0/google-oauth-client-1.26.0.jar:/Users/giangvi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/giangvi/.m2/repository/com/google/apis/google-api-services-gmail/v1-rev96-1.25.0/google-api-services-gmail-v1-rev96-1.25.0.jar:/Users/giangvi/.m2/repository/com/google/api-client/google-api-client/1.25.0/google-api-client-1.25.0.jar:/Users/giangvi/.m2/repository/com/google/http-client/google-http-client-jackson2/1.25.0/google-http-client-jackson2-1.25.0.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/giangvi/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/giangvi/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/giangvi/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/giangvi/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/giangvi/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/giangvi/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/giangvi/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/giangvi/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-testng/2.9.0/allure-testng-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.9.0/allure-descriptions-javadoc-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-java-commons/2.9.0/allure-java-commons-2.9.0.jar:/Users/giangvi/.m2/repository/io/qameta/allure/allure-model/2.9.0/allure-model-2.9.0.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar:/Users/giangvi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/giangvi/.m2/repository/org/apache/tika/tika-core/1.19.1/tika-core-1.19.1.jar:/Users/giangvi/.m2/repository/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar:/Users/giangvi/.m2/repository/org/jooq/joor-java-8/0.9.9/joor-java-8-0.9.9.jar:/Users/giangvi/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/giangvi/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="allure.results.directory" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/giangvi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev/target/surefire/surefirebooter15675758940348630159.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="giangvi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/giangvi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_5/cdbs8fxj44b4rrkvrm2zq5vw0000gn/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/giangvi/Automation/Projects/selenium-panasonic-dev"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/giangvi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="prepare" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="59.714"/>
+  <testcase name="prepare" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0.149"/>
+  <testcase name="submitWarrantyWithEmptySupportedDocument" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="18.877">
+    <failure message="Cannot locate element with text: CAMERA &amp; CAMCORDERS&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;Giangs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4f6:feed:aa2e:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_EN_SubmiteWarrantyTest.java:63)
+]]></failure>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptySupportedDocument" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="1.186">
+    <failure message="Cannot locate element with text: CAMERA &amp; CAMCORDERS&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;Giangs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4f6:feed:aa2e:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_BA_SubmiteWarrantyTest.java:63)
+]]></failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/giangvi/Automation/Projects/selenium-panasonic-dev/test-output/report/PageInfo/id_en_ID_EN_SubmiteWarrantyTest-submitWarrantyWithEmptySupportedDocument.html (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at isobar.panasonic.utility.FileUtility.write(FileUtility.java:57)
+	at isobar.panasonic.utility.ReportUtility.logFullPageInfo(ReportUtility.java:92)
+	at isobar.panasonic.utility.SeleniumTest.cleanOrKeepTrack(SeleniumTest.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]></system-err>
+  </testcase>
+  <testcase name="submitWarrantyWithInvalidSupportedDocument" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="12.308">
+    <failure message="Cannot locate element with text: CAMERA &amp; CAMCORDERS&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;Giangs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4f6:feed:aa2e:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_EN_SubmiteWarrantyTest.java:70)
+]]></failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/giangvi/Automation/Projects/selenium-panasonic-dev/test-output/report/PageInfo/id_ba_ID_BA_SubmiteWarrantyTest-submitWarrantyWithEmptySupportedDocument.html (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at isobar.panasonic.utility.FileUtility.write(FileUtility.java:57)
+	at isobar.panasonic.utility.ReportUtility.logFullPageInfo(ReportUtility.java:92)
+	at isobar.panasonic.utility.SeleniumTest.cleanOrKeepTrack(SeleniumTest.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]></system-err>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyProductCategory" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods"/>
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/giangvi/Automation/Projects/selenium-panasonic-dev/test-output/report/PageInfo/id_en_ID_EN_SubmiteWarrantyTest-submitWarrantyWithInvalidSupportedDocument.html (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at isobar.panasonic.utility.FileUtility.write(FileUtility.java:57)
+	at isobar.panasonic.utility.ReportUtility.logFullPageInfo(ReportUtility.java:92)
+	at isobar.panasonic.utility.SeleniumTest.cleanOrKeepTrack(SeleniumTest.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]></system-err>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyModelNumber" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptySerialNumber" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyDateOfPurchase" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithValidInfo" classname="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithInvalidSupportedDocument" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="13.527">
+    <failure message="Cannot locate element with text: CAMERA &amp; CAMCORDERS&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;Giangs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4f6:feed:aa2e:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_BA_SubmiteWarrantyTest.java:70)
+]]></failure>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyProductCategory" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods"/>
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/giangvi/Automation/Projects/selenium-panasonic-dev/test-output/report/PageInfo/id_ba_ID_BA_SubmiteWarrantyTest-submitWarrantyWithInvalidSupportedDocument.html (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at isobar.panasonic.utility.FileUtility.write(FileUtility.java:57)
+	at isobar.panasonic.utility.ReportUtility.logFullPageInfo(ReportUtility.java:92)
+	at isobar.panasonic.utility.SeleniumTest.cleanOrKeepTrack(SeleniumTest.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]></system-err>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyModelNumber" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptySerialNumber" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithEmptyDateOfPurchase" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="submitWarrantyWithValidInfo" classname="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest" time="0">
+    <skipped message="Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>

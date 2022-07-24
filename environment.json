@@ -1,0 +1,50 @@
+{
+  "browser": "chrome",
+  "object_wait": 3,
+  "env": "dev",
+  "dev": {
+    "vn_vn": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/vn",
+    "vn_en": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/vn_en",
+    "id_en": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/id_en",
+    "id_ba": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/id",
+    "th_th": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/th",
+    "th_en": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/th_en",
+    "my_en": "https://panasonic.dev.bluecomvn.com/my_en/",
+    "bo": "https://bluecom:Blu3c0m2016@panasonic.dev.bluecomvn.com/pana_admin"
+  },
+  "staging": {
+    "fo": "https://uat.iloveskininc.com/",
+    "bo": ""
+  },
+  "admin": {
+    "user": "sang.le",
+    "pass": "Abcd@123"
+  },
+  "db": {
+    "host": "192.168.0.12",
+    "username": "panasonic_dev",
+    "password": "hU!+KMX@88",
+    "dbname": "panasonic.dev"
+  },
+  "applitools": {
+    "user": "sang.le3@mailinator.com",
+    "pass": "Abcd@123456789",
+    "api_key": "G9ZFPR2n105KbBUCYlF99J101UAm72bknEWYxvO101A4XrXB04110",
+    "test_results_url": "https://eyes.applitools.com/app/test-results",
+    "app_name": "Panasonic",
+    "test_name": "Panasonic Check UI Desktop"
+  },
+  "mail_title": "Panasonic Automation Result",
+  "report_date_format": "dd-MM-yyyy",
+  "tax": {
+    "vn": 10,
+    "id": 0,
+    "th": 0,
+    "my": 10
+  },
+  "thread_count": 7,
+  "email_from": "isobar.automationreport01@gmail.com",
+  "email_pass": "isobar@123",
+  "email_to": "hieu.nguyen@isobar.com",
+  "email_cc": "trinh.luu@isobar.com;tram.dao@isobar.com;vi.giang@isobar.com"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Indo_Bahasa]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="country" value="id"/>
+  <parameter name="siteCode" value="id_ba"/>
+  <test name="run(failed)">
+    <classes>
+      <class name="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest">
+        <methods>
+          <include name="submitWarrantyWithValidInfo"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+          <include name="cleanUp"/>
+          <include name="cleanOrKeepTrack"/>
+          <include name="submitWarrantyWithInvalidSupportedDocument"/>
+          <include name="submitWarrantyWithEmptySerialNumber"/>
+          <include name="submitWarrantyWithEmptyModelNumber"/>
+          <include name="prepare"/>
+          <include name="submitWarrantyWithEmptySupportedDocument"/>
+          <include name="submitWarrantyWithEmptyProductCategory"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="submitWarrantyWithEmptyDateOfPurchase"/>
+        </methods>
+      </class> <!-- isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest -->
+    </classes>
+  </test> <!-- run(failed) -->
+</suite> <!-- Failed suite [Indo_Bahasa] -->

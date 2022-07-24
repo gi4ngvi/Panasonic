@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Indo_Bahasa">
+    <parameter name="country" value="id"></parameter>
+    <parameter name="siteCode" value="id_ba"></parameter>
+    <test name="run" preserve-order="true">
+        <classes>
+            <class name="isobar.panasonic.scenarios.id_ba.ID_BA_CheckoutWithRewardsPointTest"></class>
+            <class name="isobar.panasonic.scenarios.id_ba.ID_BA_CheckoutWithCreateNewBillingAddressTest"></class>
+            <class name="isobar.panasonic.scenarios.id_ba.ID_BA_CheckoutWithCreateNewShippingAddressTest"></class>
+            <class name="isobar.panasonic.functions.MyOrderTest"></class>
+            <class name="isobar.panasonic.functions.RewardPointsTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_ShoppingCartTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_NewsletterSubscriptionTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest"></class>
+            <class name="isobar.panasonic.functions.ReviewProductTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_LoginLogoutTest"></class>
+            <class name="isobar.panasonic.scenarios.ReOderTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_RegistrationTest"></class>
+            <class name="isobar.panasonic.scenarios.id_ba.ID_BA_AddDefaultAddressInAdminTest"></class>
+            <class name="isobar.panasonic.scenarios.id_ba.ID_BA_CRUD_AddressTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_EditAccountInformationTest"></class>
+            <class name="isobar.panasonic.functions.id_ba.ID_BA_ForgotPasswordTest"></class>
+            <class name="isobar.panasonic.functions.PostCondition"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

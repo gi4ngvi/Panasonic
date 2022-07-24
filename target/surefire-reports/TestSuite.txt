@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 10, Time elapsed: 112.574 s <<< FAILURE! - in TestSuite
+submitWarrantyWithEmptySupportedDocument(isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest)  Time elapsed: 18.877 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_EN_SubmiteWarrantyTest.java:63)
+
+submitWarrantyWithEmptySupportedDocument(isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest)  Time elapsed: 1.186 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_BA_SubmiteWarrantyTest.java:63)
+
+submitWarrantyWithInvalidSupportedDocument(isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest)  Time elapsed: 12.308 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_EN_SubmiteWarrantyTest.java:70)
+
+submitWarrantyWithInvalidSupportedDocument(isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest)  Time elapsed: 13.527 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_BA_SubmiteWarrantyTest.java:70)
+

@@ -1,0 +1,9 @@
+{
+  "mail_title": "Panasonic Check UI Desktop",
+  "report_date_format" : "dd-MM-yyyy",
+  "report_path": "\\test-output\\reportUIDesktop\\",
+  "email_from": "bluecomtestautomation@gmail.com",
+  "email_pass": "bluecom@123",
+  "email_to": "sang.le@isobar.com",
+  "email_cc": "sang.le@isobar.com"
+}

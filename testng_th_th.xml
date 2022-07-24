@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Thailand_Thailand">
+    <parameter name="country" value="th"></parameter>
+    <parameter name="siteCode" value="th_th"></parameter>
+    <test name="run" preserve-order="true">
+        <classes>
+            <class name="isobar.panasonic.scenarios.th_th.TH_TH_CheckoutWithRewardsPointTest"></class>
+            <class name="isobar.panasonic.scenarios.th_th.TH_TH_CheckoutWithCreateNewBillingAddressTest"></class>
+            <class name="isobar.panasonic.scenarios.th_th.TH_TH_CheckoutWithCreateNewShippingAddressTest"></class>
+            <class name="isobar.panasonic.functions.MyOrderTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_ShoppingCartTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_NewsletterSubscriptionTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_LoginLogoutTest"></class>
+            <class name="isobar.panasonic.scenarios.th_th.TH_TH_CRUD_AddressTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_ForgotPasswordTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_SubmiteWarrantyTest"></class>
+            <class name="isobar.panasonic.scenarios.ReOderTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_RegistrationTest"></class>
+            <class name="isobar.panasonic.scenarios.th_th.TH_TH_AddDefaultAddressInAdminTest"></class>
+            <class name="isobar.panasonic.functions.th_th.TH_TH_EditAccountInformationTest"></class>
+            <class name="isobar.panasonic.functions.PostCondition"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>

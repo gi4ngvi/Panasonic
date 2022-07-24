@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Vietnam_English">
+    <parameter name="country" value="vn"></parameter>
+    <parameter name="siteCode" value="vn_en"></parameter>
+    <test name="run" preserve-order="true">
+        <classes>
+            <class name="isobar.panasonic.scenarios.vn_en.VN_EN_CheckoutWithCreateNewBillingAddressTest"/>
+            <class name="isobar.panasonic.scenarios.vn_en.VN_EN_CheckoutWithCreateNewShippingAddressTest"/>
+            <class name="isobar.panasonic.functions.vn_en.VN_EN_EditAccountInformationTest"></class>
+            <class name="isobar.panasonic.scenarios.vn_en.VN_EN_CRUD_AddressTest"></class>
+            <class name="isobar.panasonic.scenarios.vn_en.VN_EN_AddDefaultAddressInAdminTest"></class>
+            <class name="isobar.panasonic.functions.PostCondition"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

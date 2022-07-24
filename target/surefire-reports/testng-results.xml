@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="2" failed="4" skipped="10">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-15T02:53:30Z" name="Indo_English" finished-at="2020-04-15T02:55:19Z" duration-ms="109132">
+    <groups>
+    </groups>
+    <test started-at="2020-04-15T02:53:30Z" name="run" finished-at="2020-04-15T02:55:19Z" duration-ms="109132">
+      <class name="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:53:30Z" name="setUp" finished-at="2020-04-15T09:53:38Z" duration-ms="7887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id_en]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a74d228]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:53:38Z" name="beforeClass" finished-at="2020-04-15T09:53:43Z" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:53:43Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:53:43Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.prepare()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="prepare()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:53:43Z" name="prepare" finished-at="2020-04-15T09:54:43Z" duration-ms="59879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:54:43Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:54:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=prepare status=SUCCESS method=ID_EN_SubmiteWarrantyTest.prepare()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.prepare()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:54:43Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:54:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="submitWarrantyWithEmptySupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:54:43Z" name="submitWarrantyWithEmptySupportedDocument" finished-at="2020-04-15T09:55:02Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.prepare" duration-ms="18868" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:141)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.setProductCategory(WarrantyPage.java:55)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfoTHID(WarrantyPage.java:109)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfo(WarrantyPage.java:104)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.submitWarranty(WarrantyPage.java:37)
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_EN_SubmiteWarrantyTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptySupportedDocument -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:02Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:55:02Z" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWarrantyWithEmptySupportedDocument status=FAILURE method=ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:02Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:55:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="submitWarrantyWithInvalidSupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:02Z" name="submitWarrantyWithInvalidSupportedDocument" finished-at="2020-04-15T09:55:16Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.prepare" duration-ms="14018" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:141)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.setProductCategory(WarrantyPage.java:55)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfoTHID(WarrantyPage.java:109)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfo(WarrantyPage.java:104)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.submitWarranty(WarrantyPage.java:37)
+	at isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_EN_SubmiteWarrantyTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithInvalidSupportedDocument -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:16Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:55:17Z" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWarrantyWithInvalidSupportedDocument status=FAILURE method=ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method signature="submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="submitWarrantyWithEmptyProductCategory" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyProductCategory -->
+        <test-method signature="submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="submitWarrantyWithEmptyModelNumber" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyModelNumber -->
+        <test-method signature="submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="submitWarrantyWithEmptySerialNumber" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptySerialNumber -->
+        <test-method signature="submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="submitWarrantyWithEmptyDateOfPurchase" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyDateOfPurchase -->
+        <test-method signature="submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="submitWarrantyWithValidInfo" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_EN_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithValidInfo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:17Z" name="afterClass" finished-at="2020-04-15T09:55:19Z" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest@352e612e]" started-at="2020-04-15T09:55:19Z" name="cleanUp" finished-at="2020-04-15T09:55:19Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- isobar.panasonic.functions.id_en.ID_EN_SubmiteWarrantyTest -->
+    </test> <!-- run -->
+  </suite> <!-- Indo_English -->
+  <suite started-at="2020-04-15T02:53:30Z" name="Indo_Bahasa" finished-at="2020-04-15T02:55:21Z" duration-ms="111674">
+    <groups>
+    </groups>
+    <test started-at="2020-04-15T02:53:30Z" name="run" finished-at="2020-04-15T02:55:21Z" duration-ms="111674">
+      <class name="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:53:30Z" name="setUp" finished-at="2020-04-15T09:53:38Z" duration-ms="7870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id_ba]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a714237]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:53:38Z" name="beforeClass" finished-at="2020-04-15T09:53:43Z" duration-ms="5226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:53:43Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:53:43Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.prepare()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="prepare()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:53:43Z" name="prepare" finished-at="2020-04-15T09:54:43Z" duration-ms="59716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:54:43Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:54:43Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=prepare status=SUCCESS method=ID_BA_SubmiteWarrantyTest.prepare()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.prepare()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:54:43Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:54:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="submitWarrantyWithEmptySupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:54:43Z" name="submitWarrantyWithEmptySupportedDocument" finished-at="2020-04-15T09:55:03Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.prepare" duration-ms="20759" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:141)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.setProductCategory(WarrantyPage.java:55)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfoTHID(WarrantyPage.java:109)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfo(WarrantyPage.java:104)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.submitWarranty(WarrantyPage.java:37)
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument(ID_BA_SubmiteWarrantyTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptySupportedDocument -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:03Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:55:04Z" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWarrantyWithEmptySupportedDocument status=FAILURE method=ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:04Z" name="setUpBeforeMethod" finished-at="2020-04-15T09:55:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="submitWarrantyWithInvalidSupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:04Z" name="submitWarrantyWithInvalidSupportedDocument" finished-at="2020-04-15T09:55:17Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.prepare" duration-ms="13526" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CAMERA & CAMCORDERS
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'Giangs-MacBook-Pro.local', ip: 'fe80:0:0:0:4f6:feed:aa2e:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:141)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.setProductCategory(WarrantyPage.java:55)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfoTHID(WarrantyPage.java:109)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.fillInProductInfo(WarrantyPage.java:104)
+	at isobar.panasonic.page.fo.method.account.WarrantyPage.submitWarranty(WarrantyPage.java:37)
+	at isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument(ID_BA_SubmiteWarrantyTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithInvalidSupportedDocument -->
+        <test-method is-config="true" signature="cleanOrKeepTrack(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:17Z" name="cleanOrKeepTrack" finished-at="2020-04-15T09:55:18Z" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWarrantyWithInvalidSupportedDocument status=FAILURE method=ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanOrKeepTrack -->
+        <test-method signature="submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="submitWarrantyWithEmptyProductCategory" finished-at="2020-04-15T09:55:18Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithInvalidSupportedDocument" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyProductCategory -->
+        <test-method signature="submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="submitWarrantyWithEmptyModelNumber" finished-at="2020-04-15T09:55:18Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyProductCategory" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyModelNumber -->
+        <test-method signature="submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="submitWarrantyWithEmptySerialNumber" finished-at="2020-04-15T09:55:18Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyModelNumber" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptySerialNumber -->
+        <test-method signature="submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="submitWarrantyWithEmptyDateOfPurchase" finished-at="2020-04-15T09:55:18Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptySerialNumber" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithEmptyDateOfPurchase -->
+        <test-method signature="submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="submitWarrantyWithValidInfo" finished-at="2020-04-15T09:55:18Z" depends-on-methods="isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest.submitWarrantyWithEmptyDateOfPurchase" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ID_BA_SubmiteWarrantyTest.submitWarrantyWithValidInfo()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWarrantyWithValidInfo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:18Z" name="afterClass" finished-at="2020-04-15T09:55:21Z" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest@601cbd8c]" started-at="2020-04-15T09:55:21Z" name="cleanUp" finished-at="2020-04-15T09:55:21Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- isobar.panasonic.functions.id_ba.ID_BA_SubmiteWarrantyTest -->
+    </test> <!-- run -->
+  </suite> <!-- Indo_Bahasa -->
+</testng-results>

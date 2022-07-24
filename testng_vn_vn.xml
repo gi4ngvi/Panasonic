@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Vietnam">
+    <parameter name="country" value="vn"></parameter>
+    <parameter name="siteCode" value="vn_vn"></parameter>
+    <test name="run" preserve-order="true">
+        <classes>
+            <class name="isobar.panasonic.scenarios.vn_vn.VN_VN_AddDefaultAddressInAdminTest"></class>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckoutAsUserTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckOutCODTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckoutOnePayDomesticTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckoutOnePayDomesticWithCancelPaymentTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckoutOnePayInternationalTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CheckoutOnePayInternationalWithCancelPaymentTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.VN_VN_CheckoutWithCreateNewBillingAddressTest"></class>
+            <class name="isobar.panasonic.functions.vn_vn.ShoppingCartSimpleProductTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.ShoppingCartBundleProductTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.WishListTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.CRUD_AddressTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.RegistrationTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.RecoveryForgotPasswordTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.EditAccountInfomationTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.Login_LogoutTest"/>
+            <class name="isobar.panasonic.scenarios.vn_vn.ReOrderTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.SearchTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.Subcribe_UnsibcribeNewLetterTest"/>
+            <class name="isobar.panasonic.functions.vn_vn.CompareProductTest"/>
+            <class name="isobar.panasonic.functions.PostCondition"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,68 @@
+{
+  "id_en":{
+    "product1":{
+      "productCategory":"Gas Cooker",
+      "productName":"GT-221MA",
+      "productSKU":"F-PMF35AAN",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":100
+    }
+  },
+  "id_ba":{
+    "product1":{
+      "productCategory":"Gas Cooker",
+      "productName":"GT-221MA",
+      "productSKU":"F-PMF35AAN",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":100
+    }
+  },
+  "th_en":{
+    "product1":{
+      "productCategory":"LUMIX G Mirrorless Cameras",
+      "productName":"test-smap01",
+      "productSKU":"CU-S10MKP",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":1000
+    },
+    "product2":{
+      "productCategory":"LUMIX G Mirrorless Cameras",
+      "productName":"test-smap04",
+      "productSKU":"CU-S10MKP-1",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":100
+    }
+  },
+  "th_th":{
+    "product1":{
+      "productCategory":"LUMIX G Mirrorless Cameras",
+      "productName":"test-smap01",
+      "productSKU":"CU-S10MKP",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":1000
+    },
+    "product2":{
+      "productCategory":"LUMIX G Mirrorless Cameras",
+      "productName":"test-smap04",
+      "productSKU":"CU-S10MKP-1",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":100
+    }
+  },
+  "my_en":{
+    "product1":{
+      "productCategory":"BIDET",
+      "productName":"DL-AB10",
+      "productSKU":"CDL-AB10",
+      "warrantyCardNumber":"432456363463464",
+      "serialNumber":"454353857663469",
+      "rewardPointBonus":100
+    }
+  }
+}
